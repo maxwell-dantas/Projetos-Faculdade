@@ -6,7 +6,7 @@ ponto_Ay = float(input('Informe o valor de Y na primeira coordenada: '))
 ponto_Bx = float(input('Informe o valor de X na segunda coordenada: '))
 ponto_By = float(input('Informe o valor de Y na segunda coordenada: '))
 
-#fórmulas:
+#Fórmulas:
 delta_X = ponto_Ax - ponto_Bx
 delta_Y = ponto_Ay - ponto_By
 dist = (delta_X**2 + delta_Y**2)**(1/2)
