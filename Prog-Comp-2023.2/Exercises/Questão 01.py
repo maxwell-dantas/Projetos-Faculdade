@@ -4,20 +4,19 @@
 num = int(input('Informe um número inteiro: '))
 resto = num%2
 
-#Condição:
-if num>=0:
-     if num==0:
-          print('Este é um valor NULO!')
-     elif resto==0:
-          print(f'Seu número de valor {num} é um PAR POSITIVO')
-     elif resto!=0:
-          print(f'Seu número de valor {num} é um ÍMPAR POSITIVO')
-     
+#Condição do número NULO:
+if num ==0:
+     print('Este é um valor NULO!')
 else:
-     if num==0:
-        print('Este é um valor NULO!')
-     if resto==0:
-          print(f'Seu número de valor {num} é um PAR NEGATIVO')
+#Condição de números ímpares e pares positivos e negativos:
+     if num>=0:
+          if resto==0:
+               print(f'Seu número de valor {num} é um PAR POSITIVO')
+          elif resto!=0:
+               print(f'Seu número de valor {num} é um ÍMPAR POSITIVO')         
      else:
-          print(f'Seu número de valor {num} é um ÍMPAR NEGATIVO')
-    
+          if resto==0:
+               print(f'Seu número de valor {num} é um PAR NEGATIVO')
+          else:
+               print(f'Seu número de valor {num} é um ÍMPAR NEGATIVO')
+     
