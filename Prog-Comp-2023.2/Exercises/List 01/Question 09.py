@@ -1,4 +1,4 @@
-#Exercício para descobrir os valores das raízes de uma equação de segundo grau, quando houver
+#Faça um programa que leia os valores de a, b e c e calcule as raízes de uma equação do 2º grau. 
 
 #Dados de entrada:
 a = float(input('Insira o valor de A: '))
