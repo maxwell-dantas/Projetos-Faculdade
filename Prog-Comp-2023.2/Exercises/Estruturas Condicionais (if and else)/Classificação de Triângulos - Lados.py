@@ -5,20 +5,16 @@ a = float(input('Digite o primeiro lado do seu triângulo: '))
 b = float(input('Digite o primeiro lado do seu triângulo: '))
 c = float(input('Digite o primeiro lado do seu triângulo: '))
 
-
-
-
-if a>=0 and b>=0 and c>=0:
-    if a > b - c and a < b + c:
-
-        if b > a - c and b < a + c:
-    
-            if c > a - b and c < a + b:
-                if a==b and b==c:
+#Condição para a formação de um triângulo:
+if a>0 and b>0 and c>0:
+    if a > b - c and a < b + c:                     #Condição do tamanho do lado A
+        if b > a - c and b < a + c:                 #Condição do tamanho do lado B
+            if c > a - b and c < a + b:             #Condição do tamanho do lado C
+                if a==b and b==c:                   #Condição do triângulo equilátero
                     print('Triângulo equilátero!')
-                elif a!=b and a!=c and b!=c:
+                elif a!=b and a!=c and b!=c:        #Condição do triângulo escaleno
                     print('Triângulo escaleno!')
-                else:
+                else:                               #Se não for equilátero ou escaleno, é isósceles
                     print('Triângulo isósceles!')
             else:
                 print('O valor da terciera medida deve ser maior que a diferença da primeira pela segunda e, também, deve ser menor que a soma desses dois lados!')

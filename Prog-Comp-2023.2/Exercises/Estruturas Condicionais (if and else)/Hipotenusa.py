@@ -4,9 +4,11 @@
 a = float(input('Informe um número positivo para o cateto adjacente: '))
 b = float(input('Informe um número positivo para o cateto oposto: '))
 
+#Fórmula:
 hip = (a**2 + b**2)**(1/2)
 
-if a>=0 and b>=0:
+#Condição para efetuar a fórmula:
+if a>0 and b>0:
     print(f'O valor da sua hipotenusa é {hip:.2f}')
 else:
     print('Informe um número positivo para ambos os catetos!')
