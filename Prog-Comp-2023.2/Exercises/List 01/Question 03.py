@@ -9,16 +9,16 @@ if player_1==player_2:
     print('Empate')
 else:
     if player_1=='Pedra' and player_2=='Tesoura':
-        print('O jogador 1 venceu')
+        print('Pedra quebra tesoura, o jogador 1 venceu!')
     elif player_1=='Pedra' and player_2=='Papel':
-        print('O jogador 2 venceu')
+        print('Papel embrulha pedra, o jogador 2 venceu!')
 
     if player_1=='Papel' and player_2=='Pedra':
-        print('O jogador 1 venceu')
+        print('Papel embrulha pedra, o jogador 1 venceu!')
     elif player_1=='Papel' and player_2=='Tesoura':
-        print('O jogador 2 venceu')
+        print('Tesoura corta papel, o jogador 2 venceu!')
         
     if player_1=='Tesoura' and player_2=='Papel':
-        print('O jogador 1 venceu')
+        print('Tesoura corta papel, o jogador 1 venceu!')
     elif player_1=='Tesoura' and player_2=='Pedra':
-        print('O jogador 2 venceu')
+        print('Pedra quebra tesoura, o jogador 2 venceu!')
