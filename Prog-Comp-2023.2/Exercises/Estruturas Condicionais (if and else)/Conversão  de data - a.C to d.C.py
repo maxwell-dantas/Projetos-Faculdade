@@ -3,15 +3,17 @@ Faça um programa que, dado um inteiro de quantos anos se passaram, mostre em qu
 Lembre-se que você deve indicar se aconteceu AC (Antes de Cristo) ou DC (Depois de Cristo). 
 Lembre-se que o primeiro ano da era cristã é 0 (zero).'''
 
+#Dados de entrada:
 ano_atual = int(input('Informe o ano atual: '))
-anos_corridos_1 = ano_atual - 1976
-nascimento = 1976 - 10000
+nascimento = int(input('Informe o ano de nascimento: '))
+anos_corridos = ano_atual - nascimento
+resultado = nascimento - 10000
 
-evento_1 = ano_atual - nascimento
+evento = ano_atual - anos_corridos  #Evento de quantos anos se passarão depois de Cristo.
 
-
-if evento_1>=0:
-    print(f'Raul Seixas nasceu em {nascimento*-1} a.C e se passaram {evento_1} anos desde então.')
-    print(f'Sendo {nascimento*-1} anos a.C e {ano_atual} anos d.C desde então.')
+#Condição geral:
+if ano_atual > nascimento:
+    print(f'Nascendo em {nascimento} e tendo como ano atual {ano_atual}, caso você nascesse há 10000 anos atrás,' + 
+        f' nasceria em {resultado*-1} a.C\ntendo como tempo percorrido: {resultado*-1} a.C e {evento} d.C')
 else:
-    print(f'Raul Seixas nasceu em {nascimento*-1} a.C e se passaram {evento_1} d.C desde então')
+    print('O ano de nascimento não pode ser maior que o ano atual!')

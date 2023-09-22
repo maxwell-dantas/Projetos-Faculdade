@@ -10,9 +10,9 @@ angle = angle_1 + angle_2 + angle_3
 if angle_1 >=0 and angle_2 >=0 and angle_3 >=0 and angle ==180: 
     if angle_1 <90 and angle_2 <90 and angle_3 <90:             #Condição triângulo acutângulo
         print('O seu triângulo é o triângulo acutângulo')       
-    elif angle_1 ==90 or angle_2==90 or angle_3==90:            #Condição triângulo retângulo
+    elif angle_1 ==90 or angle_2 ==90 or angle_3 ==90:          #Condição triângulo retângulo
         print('O seu triângulo é o triângulo retângulo')    
-    elif angle_1 >90 or angle_2>90 or angle_3>90:               #Condição triângulo obtuso
+    elif angle_1 >90 or angle_2 >90 or angle_3 >90:             #Condição triângulo obtuso
         print('O seu triângulo é o triângulo obtuso')
 elif angle_1 <0 or angle_2 <0 or angle_3 <0:                    #Condição triângulo inválido
     print('Informe um ângulo positivo')

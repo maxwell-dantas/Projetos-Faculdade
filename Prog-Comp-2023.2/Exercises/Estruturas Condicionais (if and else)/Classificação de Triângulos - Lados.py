@@ -21,4 +21,6 @@ if a>0 and b>0 and c>0:
         else:
             print('O valor da segunda medida deve ser maior que a diferença da primeira pela terceira e, também, deve ser menor que a soma desses dois lados!')   
     else:
-        print('O valor da primeira medida deve ser maior que a diferença da segunda pela terceira e, também, deve ser menor que a soma desses dois lados!')       
+        print('O valor da primeira medida deve ser maior que a diferença da segunda pela terceira e, também, deve ser menor que a soma desses dois lados!')
+else:
+    print('O valor do primeiro, do segundo e do terceiro lado devem possuir valores maiores que 0!')    
