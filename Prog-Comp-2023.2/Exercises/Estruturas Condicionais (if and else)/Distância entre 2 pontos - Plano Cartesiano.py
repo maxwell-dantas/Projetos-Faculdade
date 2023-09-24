@@ -1,4 +1,4 @@
-#Faça um programa que leia a coordenada cartesiana (coordenada X e Y) de dois pontos e calcule a distância entre eles.
+#Faça um programa que leia a coordenada cartesiana (X,Y) de dois pontos e calcule a distância entre eles.
 
 #Entrada de dados:
 ponto_Ax = float(input('Informe o valor de X na primeira coordenada: '))

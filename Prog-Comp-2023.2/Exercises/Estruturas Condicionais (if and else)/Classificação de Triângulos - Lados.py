@@ -1,18 +1,18 @@
-#Faça um programa que leia os 3 lados de um triângulo e informe o seu tipo:
+#Faça um programa que leia os 3 lados de um triângulo e informe o seu tipo.
 
 #Dados de entrada:
-a = float(input('Digite o primeiro lado do seu triângulo: '))
-b = float(input('Digite o primeiro lado do seu triângulo: '))
-c = float(input('Digite o primeiro lado do seu triângulo: '))
+a = float(input('Digite o PRIMEIRO lado do seu triângulo: '))
+b = float(input('Digite o SEGUNDO lado do seu triângulo: '))
+c = float(input('Digite o TERCEIRO lado do seu triângulo: '))
 
 #Condição para a formação de um triângulo:
-if a>0 and b>0 and c>0:
+if a > 0 and b > 0 and c > 0:
     if a > b - c and a < b + c:                     #Condição do tamanho do lado A
         if b > a - c and b < a + c:                 #Condição do tamanho do lado B
             if c > a - b and c < a + b:             #Condição do tamanho do lado C
-                if a==b and b==c:                   #Condição do triângulo equilátero
+                if a == b and b == c:                   #Condição do triângulo equilátero
                     print('Triângulo equilátero!')
-                elif a!=b and a!=c and b!=c:        #Condição do triângulo escaleno
+                elif a != b and a != c and b != c:        #Condição do triângulo escaleno
                     print('Triângulo escaleno!')
                 else:                               #Se não for equilátero ou escaleno, é isósceles
                     print('Triângulo isósceles!')

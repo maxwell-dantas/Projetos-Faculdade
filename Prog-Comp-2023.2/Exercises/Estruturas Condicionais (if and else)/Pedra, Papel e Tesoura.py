@@ -21,4 +21,3 @@ else:
         print('Tesoura corta papel, o jogador 1 venceu!')
     elif player_1=='tesoura' and player_2=='pedra':
         print('Pedra quebra tesoura, o jogador 2 venceu!')
-

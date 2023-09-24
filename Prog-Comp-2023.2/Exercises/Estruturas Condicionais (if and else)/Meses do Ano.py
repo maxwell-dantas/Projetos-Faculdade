@@ -1,5 +1,4 @@
-'''Escreva um programa que leia um inteiro entre 1 e 12 e imprima o nome do mês correspondente
-a este numero. Isto é, se for informado 1 exibir Janeiro, se for informado 2, exibir Fevereiro e assim por diante.'''
+#Faça um programa que leia um inteiro entre 1 e 12 e imprima o mês correspondente a este numero.
 
 #Dados de entrada:
 x = int(input('Informe um número inteiro entre 1 e 12: '))

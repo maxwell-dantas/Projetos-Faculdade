@@ -10,16 +10,18 @@ if a != 0:
 
     #Fórmulas:
     delta = b**2 - (4*a*c)
-    x1 = (-b + ((delta**(1/2))))/2*a
-    x2 = (-b - ((delta**(1/2))))/2*a
+    x1 = (-b + ((delta**(1/2))))/(2*a)
+    x2 = (-b - ((delta**(1/2))))/(2*a)
 
     #Condições:
     if delta <0:
-        print('Como o delta foi menor que zero, a sua equação não possui raízes reais!')
+        print('Como o delta foi menor que zero, a sua equação não possui raízes pertencentes aos conjuntos dos números reais!')
     elif delta == 0: 
-        print(f'Com delta sendo {delta}, o valor da sua raiz é: {x1==x2:.2f}!')
+        print(f'Com delta sendo {delta}, o valor da sua raiz é: {x1 or x2:.2f}!'+
+              f'\ne a sua forma fatorada será: {a} * (X - ({x1 or x2:.2f}))²')
     else:   
-        print(f'Com delta sendo {delta}, os valores das suas raízes são: {x1:.2f} e {x2:.2f}!\ne a sua forma fatorada será: (X - {x1:.0f}) * (X - {x2:.0f})')
+        print(f'Com delta sendo {delta}, os valores das suas raízes são: {x1:.2f} e {x2:.2f}!' +
+              f'\ne a sua forma fatorada será: {a} * (X - ({x1:.2f})) * (X - ({x2:.2f}))')
 else:
     print('O valor de A deve ser diferente de zero')
 
