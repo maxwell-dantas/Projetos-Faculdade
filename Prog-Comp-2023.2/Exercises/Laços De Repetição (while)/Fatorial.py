@@ -13,6 +13,6 @@ x = 4 - 1 = 3
 '''
 
 while x > 0: #Condição para poder exibir o valores do fatorial
-    fat = fat * x
+    num = num * x
     x = x - 1
-print(f'O fatorial deste número é: {fat}')
+print(f'O fatorial deste número é: {num}')
