@@ -2,8 +2,6 @@
 
 #Dado de entrada
 num = int(input('Informe um número: '))
-
-fat = num
 x = num - 1
 
 '''
