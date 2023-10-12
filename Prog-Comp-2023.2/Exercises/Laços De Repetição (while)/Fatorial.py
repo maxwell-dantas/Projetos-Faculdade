@@ -8,7 +8,6 @@ x = num - 1
 
 '''
 Exemplo: num = 4
-fat = 4
 x = 4 - 1 = 3
 '''
 
