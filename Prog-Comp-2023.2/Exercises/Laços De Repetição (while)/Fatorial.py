@@ -1,7 +1,6 @@
 #Faça um programa que leia um número e imprima o seu fatorial.
 
-#Dado de entrada
-num = int(input('Informe um número: '))
+num = int(input('Informe um número: ')) #Dado de entrada
 x = num - 1
 
 '''
