@@ -3,14 +3,10 @@
 import sys
 
 num = int(input('Informe um número positivo: ')) #Dado de entrada
-x = num - 1
-
-'''
-Exemplo: num = 4
-x = 4 - 1 = 3
-'''
+x = num - 1 #"x" será determinado pelo "num - 1"
 
 if num < 0:
+    print('Desculpe, tente informar um número positivo!')
     sys.exit
 elif num == 0:
     print('O fatorial deste número é 1')
