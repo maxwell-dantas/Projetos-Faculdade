@@ -5,7 +5,7 @@ num = int(input('Informe um valor: '))
 dig = 0 #Contador de dígitos
 
 if num == 0:
-    print('O número de caractéres é: 1')
+    print('O número de dígitos é: 1')
 
 else:
     while num > 0: #Condição para o programa continuar executando o laço
