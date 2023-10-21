@@ -7,9 +7,9 @@ num = 0 #número decimal
 pot = 0 #a potência começa em 0
 rd = bin #resultado decimal
 
-for digit in bin:
+for digitos in bin:
 
-    if digit != '0' and digit != '1':
+    if digitos != '0' and digitos != '1':
 
         validação = False
         break
