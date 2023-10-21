@@ -10,7 +10,7 @@ while True:
     ordinal = ordinal + 1
 
     if num > 0: 
-        resultado = resultado + num #O valor variável resultado irá se alterar de acordo com os números positivos somados
+        resultado = resultado + num #O valor da variável resultado irá se alterar de acordo com os números positivos somados
         
     elif num == 0:
         break
