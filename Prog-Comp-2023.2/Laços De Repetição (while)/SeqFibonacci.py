@@ -7,8 +7,7 @@ t1 = 0 #Primeiro termo da sequência
 t2 = 1 #Segundo termo da sequência
 seq = 2 #A sequência irá começar a partir do segundo termo
 
-if nt <= 0: #se o número for menor ou igual a zero não irá acontecer nada
-    print('Desculpe, mas não posso fazer esta operação!')
+if nt <=0: #se o número for menor ou igual a zero não irá acontecer nada
     sys.exit()
 
 print(f'{t2} ‣ ', end ='') #O end serve para dar continuadade na linha de exibição

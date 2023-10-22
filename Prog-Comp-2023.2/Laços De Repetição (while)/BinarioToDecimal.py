@@ -1,11 +1,11 @@
 '''Dado um número natural na base binária, transformá-lo para a base decimal. Usar OBRIGATORIAMENTElaço de repetição. 
 Exemplo: Dado 10010 a saída será 18, pois 1.24 + 0.23 + 0.22 + 1.21 + 0.20 = 18.'''
 
-bin = str(input('Informe um valor binário: '))
+bin = str(input('Informe um número binário: '))
 validação = True
 num = 0 #número decimal
 pot = 0 #a potência começa em 0
-rd = bin #resultado decimal
+rb = bin #resultado bin
 
 for digitos in bin:
 
@@ -24,7 +24,7 @@ if validação:
         bin = bin // 10
         pot = pot + 1
 
-    print(f'O valor do número binário: {rd}, em decimal é: {num}')
+    print(f'O valor do número binário: {rb}, em decimal é: {num}')
 
 else:
     print('Este valor não corresponde a um número binário!')
