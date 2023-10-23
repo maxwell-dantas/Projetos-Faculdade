@@ -1,5 +1,8 @@
-max = 0 #valor do maior número até o momento
-for a in range(10,1000): #'a' pertence a um conjunto de 100 a 999
+#Encontre o maior palíndromo feito do produto de dois números de 3 dígitos.
+max = 0 #valor do maior número do resultado até o momento
+bmax = 0 #valor do maior número da variável 'a' até o momento
+amax = 0 #valor do maior número da variável 'b' até o momento
+for a in range(100,1000): #'a' pertence a um conjunto de 100 a 999
     for b in range(100,1000): #'b' pertecente a um conjunto de 100 a 999
         resultado = a * b #a variável 'resultado' será executada até o conjunto se multiplicar por completo (999 * 999)
         constante = resultado #a variável 'constante' serve para armazenar os valores do resultado
@@ -13,11 +16,8 @@ for a in range(10,1000): #'a' pertence a um conjunto de 100 a 999
 
         if x == constante: #se o valor de 'x' for igual ao da 'constante', teremos um palíndromo
             if x > max:
-                max = x #se x for maior que o valor max, o max será o x
-                amax = a #se a for maior que amax, o amax será o a
-                bmax = b #se a for ma ior que amax, o amax será o b
+                max = x #se 'x' for maior que o valor 'max', o 'max' será o 'x'
+                amax = a #se 'a' for maior que 'amax', o 'amax' será o 'a'
+                bmax = b #se 'b' for maior que 'bmax', o bmax' será o 'b'
 
 print(f'O maior palíndromo do produto de dois termos com três algarismos é: {amax} * {bmax} = {max}')
-
-
-
